@@ -3,51 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SS CashBuddy - Instant Credit Card to Bank Transfer</title>
+    <title>SS CashBuddy</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #121212; color: #ffffff; }
         .container { text-align: center; padding: 50px; }
-        h1 { color: #007bff; font-size: 36px; }
-        p { font-size: 18px; color: #fff; }
-        .cta-button { display: inline-block; padding: 15px 30px; font-size: 20px; color: white; background-color: #28a745; text-decoration: none; border-radius: 10px; transition: 0.3s; }
-        .cta-button:hover { background-color: #218838; }
-        .footer { margin-top: 50px; font-size: 16px; background: #007bff; color: white; padding: 20px; text-align: center; }
-        nav { background: #007bff; padding: 15px; text-align: center; position: fixed; width: 100%; top: 0; left: 0; z-index: 1000; }
-        nav a { color: white; margin: 0 20px; text-decoration: none; font-size: 20px; font-weight: bold; }
-        .hero { background: url('https://source.unsplash.com/1600x900/?finance,money') no-repeat center center/cover; padding: 100px 20px; color: white; text-align: center; }
-        .features { padding: 50px; background: white; text-align: center; }
-        .feature-box { display: inline-block; width: 30%; margin: 20px; padding: 20px; background: #f8f9fa; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); }
-        .logo { display: block; margin: 20px auto; max-width: 200px; }
+        h1 { color: #ffcc00; font-size: 36px; }
+        p { font-size: 18px; color: #ddd; }
+        .footer { margin-top: 50px; font-size: 16px; background: #222; color: white; padding: 20px; text-align: center; }
+        nav { background: #333; padding: 15px; text-align: center; position: fixed; width: 100%; top: 0; left: 0; z-index: 1000; }
+        nav a { color: #ffcc00; margin: 0 20px; text-decoration: none; font-size: 20px; font-weight: bold; }
+        .hero { padding: 100px 20px; text-align: center; }
+        .logo { display: block; margin: 20px auto; max-width: 100px; vertical-align: middle; }
+        .content { padding: 100px 20px; text-align: center; }
     </style>
 </head>
 <body>
     <nav>
-        <img src="logo.png" alt="SS CashBuddy Logo" class="logo" style="max-width: 100px; vertical-align: middle;">
-        <a href="index.html">Home</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="terms.html">Terms & Conditions</a>
-    </nav>
-    <div class="hero">
         <img src="logo.png" alt="SS CashBuddy Logo" class="logo">
+        <a href="#home">Home</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#terms">Terms & Conditions</a>
+    </nav>
+    
+    <div id="home" class="content">
         <h1>Welcome to SS CashBuddy</h1>
-        <p style="color: yellow; font-weight: bold;">Your trusted partner for instant Credit Card to Bank Transfers. Safe, Fast, and Reliable.</p>
-        <a href="#features" class="cta-button">Get Started</a>
+        <p>Your trusted partner for instant Credit Card to Bank Transfers. Safe, Fast, and Reliable.</p>
     </div>
-    <div id="features" class="features">
-        <h1>Why Choose SS CashBuddy?</h1>
-        <div class="feature-box">
-            <h2>Instant Transfers</h2>
-            <p>Get your funds transferred to your bank account in minutes.</p>
-        </div>
-        <div class="feature-box">
-            <h2>Lowest Fees</h2>
-            <p>We offer one of the lowest transaction fees in the market.</p>
-        </div>
-        <div class="feature-box">
-            <h2>Secure & Reliable</h2>
-            <p>All transactions are secure and processed with the latest encryption technology.</p>
-        </div>
+    
+    <div id="contact" class="content">
+        <h1>Contact Us</h1>
+        <p>For any queries, reach out to us at:</p>
+        <p>Email: <strong>sscashbuddy@gmail.com</strong></p>
+        <p>Phone: <strong>+91 9790742040</strong></p>
     </div>
-    <div class="footer">Contact us at <strong>sscashbuddy@gmail.com</strong> | Call: +91 9790742040</div>
+    
+    <div id="terms" class="content">
+        <h1>Terms & Conditions</h1>
+        <p>All transactions are subject to our terms and conditions. Please ensure you review them before proceeding.</p>
+    </div>
+    
+    <div class="footer">SS CashBuddy - Your Trusted Financial Partner</div>
 </body>
 </html>
